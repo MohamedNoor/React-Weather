@@ -72,10 +72,11 @@ class App extends React.Component {
         <div className="wrapper">
         <div className="main">
         <div className="container">
-        <div className="row">
+        <div className="col">
         <div className= "col-xs-5 title-container">
          <Titles/>
         </div>
+        <div className="arrow bounce"></div>
         <div className= "weather_section">
         <div className="col-xs-7 form-container">
         <Form getWeather={this.getWeather}/>
